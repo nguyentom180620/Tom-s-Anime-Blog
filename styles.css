@@ -1,21 +1,19 @@
+/* Full Website Style */
 * {
     font-family: "Comic Sans MS";
     background-color: #d7fffc;
-}
-
-div {
-    color: white;
-    background-color: black;
 }
 
 p {
     color: black;
 }
 
+/* Text Shadow for elements that stand out */
 h1,h2,#wafu,.quotes {
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
+/* Rest of Unique qualities */
 h1,h2 {
     text-decoration: underline;
 }
@@ -40,6 +38,7 @@ h2 {
     font-style: italic;
 }
 
+/* Image Formatting for Consistency */
 img {
     height: auto;
     width: 750px;
