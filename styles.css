@@ -1,0 +1,46 @@
+* {
+    font-family: "Comic Sans MS";
+    background-color: #d7fffc;
+}
+
+div {
+    color: white;
+    background-color: black;
+}
+
+p {
+    color: black;
+}
+
+h1,h2,#wafu,.quotes {
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+h1,h2 {
+    text-decoration: underline;
+}
+
+h1 {
+    font-size: 60px;
+    color: #ffd1b2;
+    text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000, 0px 0px 15px #000;
+}
+
+h2 {
+    color: #ffb2b2;
+}
+
+#wafu,.quotes {
+    font-weight: 700;
+    font-size: 22px;
+    color: #feb2ff;
+}
+
+.quotes {
+    font-style: italic;
+}
+
+img {
+    height: auto;
+    width: 750px;
+}
