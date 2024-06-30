@@ -2,6 +2,17 @@
 * {
     font-family: "Comic Sans MS", sans-serif;
     background-color: #d7fffc;
+    text-align: center;
+}
+
+/* Center Alignment for lists! */
+div.list_container {
+    text-align: center;
+}
+
+ul.myList, ol.myList {
+    display: inline-block;
+    text-align: left;
 }
 
 p {
