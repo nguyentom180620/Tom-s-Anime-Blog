@@ -2,17 +2,20 @@
 * {
     font-family: "Comic Sans MS", sans-serif;
     background-color: #d7fffc;
-    text-align: center;
 }
 
 /* Center Alignment for lists! */
-div.list_container {
+div.list_container, div.links, div.image {
     text-align: center;
 }
 
-ul.myList, ol.myList {
+ul.my_list, ol.my_list {
     display: inline-block;
     text-align: left;
+}
+
+p,h1,h2 {
+    text-align: center;
 }
 
 p {
