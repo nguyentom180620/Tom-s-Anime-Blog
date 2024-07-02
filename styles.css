@@ -4,6 +4,31 @@
     background-color: #d7fffc;
 }
 
+/* Title Box */
+div.title_box {
+    border-radius: 45px;
+    border: 10px solid #ffd1b2;
+    width: 1000px;
+    height: auto;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+/* Content Box */
+div.content_box {
+    border-radius: 45px;
+    border: 10px solid #fdffa0;
+    width: 1000px;
+    height: auto;
+    margin: auto;
+    padding: 10px;
+}
+
+div.content_box#little_busters {
+    border: 10px solid #ffb2b2;
+}
+
 /* Center Alignment for lists! */
 div.list_container, div.links, div.image {
     text-align: center;
@@ -16,11 +41,11 @@ ul.my_list, ol.my_list {
 
 /* Aligning Each List */
 #anime_currently_watching {
-    padding-right: 260px;
+    margin: auto;
 }
 
 #top_5_anime {
-    padding-right: 110px;
+    margin: auto;
 }
 
 p,h1,h2 {
@@ -48,13 +73,20 @@ h1 {
 }
 
 h2 {
+    font-size: 30px;
     color: #ffb2b2;
 }
 
-#wafu,.quotes {
+#wafu {
     font-weight: 700;
     font-size: 22px;
-    color: #feb2ff;
+    color:#feb2ff;
+}
+
+.quotes {
+    font-weight: 700;
+    font-size: 22px;
+    color: white;
 }
 
 .quotes {
@@ -65,4 +97,8 @@ h2 {
 img {
     height: auto;
     width: 750px;
+}
+
+a {
+    display: block;
 }
