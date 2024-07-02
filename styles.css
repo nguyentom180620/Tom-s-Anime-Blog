@@ -14,6 +14,15 @@ ul.my_list, ol.my_list {
     text-align: left;
 }
 
+/* Aligning Each List */
+#anime_currently_watching {
+    padding-right: 260px;
+}
+
+#top_5_anime {
+    padding-right: 110px;
+}
+
 p,h1,h2 {
     text-align: center;
 }
